@@ -26,7 +26,7 @@
 
 ```bash
 git clone https://github.com/JuHardtung/steam-hltb-completionist-analyzer.git
-cd steam-hltb-analyzer
+cd steam-hltb-completionist-analyzer
 ```
 
 ### 2. Install dependencies
