@@ -1,4 +1,4 @@
-# 🎮 Steam HLTB Completionist Analyzer
+# Steam HLTB Completionist Analyzer
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,24 +8,24 @@
 
 ---
 
-## 📦 Features
+## Features
 
-- ✅ Fetches your owned Steam games via the Steam Web API  
-- 🏆 Filters out games with no achievements or already 100% completed  
-- ⏱ Retrieves *completionist* time from HowLongToBeat  
-- ⚡ Uses local caching to reduce redundant API calls  
-- 🧹 Sanitizes game titles to improve matching accuracy  
-- 📊 Generates CSV, JSON, and histogram of your backlog  
-- 📁 Saves unmatched game titles for manual review
+- Fetches your owned Steam games via the Steam Web API  
+- Filters out games with no achievements or already 100% completed  
+- Retrieves *completionist* time from HowLongToBeat  
+- Uses local caching to reduce redundant API calls  
+- Sanitizes game titles to improve matching accuracy  
+- Generates CSV, JSON, and histogram of your backlog  
+- Saves unmatched game titles for manual review
 
 ---
 
-## 🚀 Setup
+##  Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/steam-hltb-analyzer.git
+git clone https://github.com/JuHardtung/steam-hltb-analyzer.git
 cd steam-hltb-analyzer
 ```
 
@@ -55,7 +55,7 @@ Get your API key: https://steamcommunity.com/dev/apikey
 
 Find your SteamID64: https://steamid.io/
 
-## 🧪 Usage
+## Usage
 Run the script:
 `python -u steam_hltb_completionist_analyzer.py`
 
@@ -65,7 +65,7 @@ This will:
 - Retrieve completionist times from HowLongToBeat
 - Save results and generate graphs
 
-## 📊 Output Files
+## Output Files
 | File	| Description |
 | ------------- | ------- |
 | completionist_times.csv	| Sorted list of games with estimated times |
@@ -74,7 +74,7 @@ This will:
 | hltb_cache.json	| Local cache for HLTB results |
 | completionist_distribution.png	| Bell curve of completionist times |
 
-## 📈 Example Output
+## Example Output
 
 CSV Sample:
 |      Month    |   AppID | Completionist Hours |
