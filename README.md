@@ -25,7 +25,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/JuHardtung/steam-hltb-analyzer.git
+git clone https://github.com/JuHardtung/steam-hltb-completionist-analyzer.git
 cd steam-hltb-analyzer
 ```
 
